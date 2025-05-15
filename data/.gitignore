@@ -2,3 +2,24 @@
 /scaling_model.pkl
 /gbrt_model.pkl
 /prediction.csv
+
+# DVC cache and logs
+/.dvc/tmp/
+/.dvc/cache/
+
+# Fichiers de données
+data/raw/*
+data/processed/*
+!data/.gitkeep
+
+# Fichiers de modèles
+models/*
+!models/.gitkeep
+
+# Fichiers metrics
+metrics/*
+!metrics/.gitkeep
+
+# Environnement local
+venv/
+.env
